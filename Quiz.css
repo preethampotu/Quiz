@@ -1,0 +1,113 @@
+
+body
+{
+    background-color: #e1004c1f;
+}
+.Container {
+    background-color: #e1004c;
+    width: 77%;
+    height: 672px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    bottom: 0;
+    border: 1px solid;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 0 8px 3px;
+    padding: 76px;
+    margin-top: 309px;
+}
+.title{
+
+font-size: 35px;
+
+text-align: center;
+
+color: #27050b;
+
+padding: 20px;
+}
+    
+.question {
+        font-size: 30px;
+        padding: 2px;
+        border-radius: 20px;
+        background: #FFC573;
+        color: #444;
+}
+span#opt1 {
+    padding-left: 7px;
+}
+span#opt2 {
+    padding-left: 7px;
+}
+span#opt3 {
+    padding-left: 7px;
+}
+span#opt4 {
+    padding-left: 7px;
+}
+    .option
+    {
+        width:470px;
+        display:inline-block;
+        padding: 0px;
+        vertical-align: middle;
+        background-color: #FFC573;
+        margin:40px 0px 10px 10px;
+        border-radius: 4px;
+        color: #444;
+        font-size: 30px;
+    }
+    
+    .option:hover{
+        columns: #f6f6f6;;
+        background-color: #2191b74f;
+        color:#fff;
+    }
+
+    .nxt-btn{
+        border: none;
+        outline: none;
+        background: rgba(51, 14, 51, 0.5);
+        color: #fff;
+        width: 123px;
+        font-size: 33px;
+        height: 70px;
+        border-radius: 20px;
+        cursor: pointer;
+        float: right;
+        margin: -22px;
+    }
+      
+    .nxt-btn:hover{
+        columns: #f6f6f6;
+        background-color: #262d0ee3;
+    }
+    .result{
+        text-align: center;
+        font-size: 75px;
+        margin-top: 239px;
+    }
+    .option input:checked.option{
+        color:#000;
+        background: #08038c;
+        
+    }
+
+    .button_section {
+        position: absolute;
+        bottom: 40%;
+        /* text-align: center; */
+        left: 38%;
+    }
+    #reset {
+        background: #e6ac26a3;
+        width: 200;
+        width: 200;
+        color: #fff;
+        height: 40px;
+        font-size: 30px;
+        border: 1px solid #e6ac26a3;
+    }

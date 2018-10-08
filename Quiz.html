@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+<title>quiz</title>
+<link rel='stylesheet' href='Quiz.css' type='text/css'/>
+</head>
+
+<body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container1">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                
+                    <a class="navbar-brand" href=Contact.html>Contact</a>
+                  </div>
+                </div>
+              </nav>
+    <div class="container">
+        <div class="row">
+        <div class="col-xs-12">
+            
+        <div id="quizContainer" class="Container">
+            <div class="title">Quiz</div>
+            <div id="question" class="question"></div>
+            <label class="option"><input type="radio" name="option" value="1"/><span id="opt1"></span></label>
+            <label class="option"><input type="radio" name="option" value="2"/><span id="opt2"></span></label>
+            <label class="option"><input type="radio" name="option" value="3"/><span id="opt3"></span></label>
+            <label class="option"><input type="radio" name="option" value="4"/><span id="opt4"></span></label>
+            <footer><button id="next" class="nxt-btn" onclick="loadnxt()">Next</button></footer>
+        </div>
+        </div>
+        <div id="result" class="container result" style="display:none;"></div>
+        <div class="button_section">
+            <button id="reset" onclick ="resetQuestions()" style="display:none;">Click fot another attempt</button>
+        </div>
+</div>
+    </div>
+    
+    </body>
+    <script src="Quiz1.JS"></script>
+    <script src="Quiz2.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
